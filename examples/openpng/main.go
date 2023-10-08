@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-	"ofn"
 	"syscall"
 	"unicode/utf16"
+
+	"github.com/pelageech/go-GetOpenFileName/ofn"
 )
 
 func main() {
